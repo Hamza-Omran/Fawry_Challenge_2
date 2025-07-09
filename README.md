@@ -119,5 +119,6 @@ Add your console output screenshots to a `screenshots/` folder and reference the
 
 ### 5th Image
 `(Output Screenshots/5.png)`
+<img width="959" alt="1" src="Output Screenshots/1.png" />
 
 ---
