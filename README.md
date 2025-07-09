@@ -108,17 +108,26 @@ Add your console output screenshots to a `screenshots/` folder and reference the
 ### 1st Image
 `(Output Screenshots/1.png)`
 
+<img width="959" alt="1" src="Output Screenshots/1.png" />
+
 ### 2nd Image
 `(Output Screenshots/2.png)`
+
+<img width="959" alt="2" src="Output Screenshots/2.png" />
 
 ### 3rd Image
 `(Output Screenshots/3.png)`
 
+<img width="959" alt="3" src="Output Screenshots/3.png" />
+
 ### 4th Image
 `(Output Screenshots/4.png)`
 
+<img width="959" alt="4" src="Output Screenshots/4.png" />
+
 ### 5th Image
 `(Output Screenshots/5.png)`
-<img width="959" alt="1" src="Output Screenshots/1.png" />
+
+<img width="959" alt="5" src="Output Screenshots/5.png" />
 
 ---
