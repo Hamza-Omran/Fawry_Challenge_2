@@ -88,6 +88,31 @@ clsEmailService
 
 ---
 
+## Validated Scenarios and Error Handling
+
+The application includes several validation rules to ensure proper flow and prevent invalid operations. Below are the scenarios it handles:
+
+### 1. Book Not Found
+If a user tries to buy a book with an ISBN that doesn't exist in the inventory, an error is shown:
+
+
+### 2. Book Not For Sale
+Attempting to purchase a demo book (marked as not for sale) will raise an exception:
+
+
+### 3. Book Out of Stock
+If a paper book has 0 quantity and a purchase is attempted, the system will reject the request:
+
+
+### 4. Delivery Behavior Based on Book Type
+- **Paper Book:** Uses the shipping service (`clsShipmmentService`)
+- **EBook:** Uses the email service (`clsEmailService`)
+- **Demo Book:** Cannot be purchased or delivered
+
+### 5. Empty Inventory
+If no books exist in the inventory when it's printed:
+
+---
 ## How to Run the Project
 
 1. Clone or download the repository.
